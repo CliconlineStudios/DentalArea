@@ -7,10 +7,11 @@
 }
 
 body {
-	background: url('../img/bg2.png');
+	background: url('../img/fondodental.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	font-family:'Open Sans',Sans-serif, Arial, Helvetica;
+	background-size: cover;
 }
 
 lottie-player {
@@ -372,69 +373,69 @@ lottie-player {
 	color: rgb(28, 136, 224);
 }
 
-/* ----- ----- Psicología ----- ----- */
+/* ----- ----- Periodoncia ----- ----- */
 
-.psicologia {
+.Periodoncia {
 	text-align: center;
 	display: none;
 	padding: 0px 3%;
 }
 
-.psicologia img {
+.Periodoncia img {
 	width: 60%;
 	border-radius: 15px;
 	padding: 8px 0px;
 }
 
-.psicologia p {
+.Periodoncia p {
 	padding: 8px 0px;
 	color: #000000;
 	text-align: left;
 	font-size: 13px;
 }
 
-/* ----- ----- ozonoterapia ----- ----- */
+/* ----- ----- implantes ----- ----- */
 
-.ozonoterapia {
+.implantes {
 	text-align: center;
 	display: none;
 	padding: 0px 3%;
 }
 
-.ozonoterapia img {
+.implantes img {
 	width: 60%;
 	border-radius: 15px;
 	padding: 8px 0px;
 }
 
-.ozonoterapia .vertical {
+.implantes .vertical {
 	width: 40%;
 	border-radius: 15px;
 	padding: 8px 0px;
 }
 
-.ozonoterapia p {
+.implantes p {
 	padding: 8px 0px;
 	color: #000000;
 	text-align: left;
 	font-size: 13px;
 }
 
-/* ----- ----- examenes ----- ----- */
+/* ----- ----- estetica ----- ----- */
 
-.examenes {
+.estetica {
 	text-align: center;
 	display: none;
 	padding: 0px 3%
 }
 
-.examenes img {
+.estetica img {
 	width: 60%;
 	border-radius: 15px;
 	padding: 8px 0px;
 }
 
-.examenes p {
+.estetica p {
 	padding: 8px 0px;
 	color: #000000;
 	text-align: left;

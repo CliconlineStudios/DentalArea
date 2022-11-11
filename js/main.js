@@ -34,9 +34,9 @@ function backweb() {
         document.getElementById("screen1").style.display = "block";
         document.getElementById("screen2").style.display = "none";
         document.getElementById("screen3").style.display = "none";
-        document.getElementById("psicologia").style.display = "none";
-        document.getElementById("ozonoterapia").style.display = "none";
-        document.getElementById("examenes").style.display = "none";
+        document.getElementById("Periodoncia").style.display = "none";
+        document.getElementById("implantes").style.display = "none";
+        document.getElementById("estetica").style.display = "none";
         document.getElementById("side").style.display = "none";
         document.getElementById("sharelink").style.display = "none";
         conta=0;
@@ -46,12 +46,12 @@ function backweb() {
     }
     else if(contador==2){
         document.getElementById("screen2").style.display = "block";
-        document.getElementById("psicologia").style.display = "none";
+        document.getElementById("Periodoncia").style.display = "none";
         document.getElementById("screen3").style.display = "none";
         document.getElementById("screen4").style.display = "none";
         document.getElementById("side").style.display = "none";
-        document.getElementById("ozonoterapia").style.display = "none";
-        document.getElementById("examenes").style.display = "none";
+        document.getElementById("implantes").style.display = "none";
+        document.getElementById("estetica").style.display = "none";
         document.getElementById("sharelink").style.display = "none";
         contador=1;
         backarriba();
@@ -67,9 +67,9 @@ function inicio() {
     document.getElementById("screen2").style.display = "none";
     document.getElementById("back").style.display = "none";
     document.getElementById("screen3").style.display = "none";
-    document.getElementById("psicologia").style.display = "none";
-    document.getElementById("ozonoterapia").style.display = "none";
-    document.getElementById("examenes").style.display = "none";
+    document.getElementById("Periodoncia").style.display = "none";
+    document.getElementById("implantes").style.display = "none";
+    document.getElementById("estetica").style.display = "none";
     document.getElementById("screen4").style.display = "none";
     document.getElementById("sharelink").style.display = "none";
     document.getElementById("side").style.display = "none";
@@ -92,9 +92,9 @@ function servicios() {
 
     document.getElementById("screen1").style.display = "none";
     document.getElementById("screen2").style.display = "block";
-    document.getElementById("psicologia").style.display = "none";
-    document.getElementById("ozonoterapia").style.display = "none";
-    document.getElementById("examenes").style.display = "none";
+    document.getElementById("Periodoncia").style.display = "none";
+    document.getElementById("implantes").style.display = "none";
+    document.getElementById("estetica").style.display = "none";
     document.getElementById("side").style.display = "none";
     document.getElementById("sharelink").style.display = "none";
     conta=0;
@@ -115,8 +115,8 @@ function screen3() {
     
 }
 
-function psicologia() {
-    document.getElementById("psicologia").style.display = "block";
+function Periodoncia() {
+    document.getElementById("Periodoncia").style.display = "block";
     document.getElementById("screen2").style.display = "none";
     document.getElementById("side").style.display = "none";
     document.getElementById("sharelink").style.display = "none";
@@ -126,8 +126,8 @@ function psicologia() {
     
 }
 
-function ozonoterapia() {
-    document.getElementById("ozonoterapia").style.display = "block";
+function implantes() {
+    document.getElementById("implantes").style.display = "block";
     document.getElementById("screen2").style.display = "none";
     document.getElementById("side").style.display = "none";
     document.getElementById("sharelink").style.display = "none";
@@ -137,10 +137,10 @@ function ozonoterapia() {
     
 }
 
-function examenes() {
-    document.getElementById("examenes").style.display = "block";
-    document.getElementById("ozonoterapia").style.display = "none";
-    document.getElementById("psicologia").style.display = "none";
+function estetica() {
+    document.getElementById("estetica").style.display = "block";
+    document.getElementById("implantes").style.display = "none";
+    document.getElementById("Periodoncia").style.display = "none";
     document.getElementById("screen4").style.display = "none";
     document.getElementById("screen3").style.display = "none";
     document.getElementById("screen2").style.display = "none";
@@ -158,11 +158,11 @@ function screen4() {
     document.getElementById("screen4").style.display = "block";
     document.getElementById("screen2").style.display = "none";
     document.getElementById("screen3").style.display = "none"; 
-    document.getElementById("psicologia").style.display = "none"; 
+    document.getElementById("Periodoncia").style.display = "none"; 
     document.getElementById("screen1").style.display = "none";
-    document.getElementById("examenes").style.display = "none";
+    document.getElementById("estetica").style.display = "none";
     document.getElementById("side").style.display = "none";
-    document.getElementById("ozonoterapia").style.display = "none";
+    document.getElementById("implantes").style.display = "none";
     document.getElementById("sharelink").style.display = "none";
     conta=0;
     contador=2;  
@@ -175,11 +175,11 @@ function sharetj() {
     document.getElementById("screen4").style.display = "none";
     document.getElementById("screen2").style.display = "none";
     document.getElementById("screen3").style.display = "none"; 
-    document.getElementById("psicologia").style.display = "none"; 
+    document.getElementById("Periodoncia").style.display = "none"; 
     document.getElementById("screen1").style.display = "none";
-    document.getElementById("examenes").style.display = "none";
+    document.getElementById("estetica").style.display = "none";
     document.getElementById("side").style.display = "none";
-    document.getElementById("ozonoterapia").style.display = "none";
+    document.getElementById("implantes").style.display = "none";
     conta=0;
     contador=1;
     ids1();    
@@ -193,9 +193,9 @@ function back() {
         document.getElementById("screen1").style.display = "block";
         document.getElementById("screen2").style.display = "none";
         document.getElementById("screen3").style.display = "none";
-        document.getElementById("psicologia").style.display = "none";
-        document.getElementById("ozonoterapia").style.display = "none";
-        document.getElementById("examenes").style.display = "none";
+        document.getElementById("Periodoncia").style.display = "none";
+        document.getElementById("implantes").style.display = "none";
+        document.getElementById("estetica").style.display = "none";
         document.getElementById("side").style.display = "none";
         conta=0;
         backarriba();
@@ -204,12 +204,12 @@ function back() {
     }
     else if(contador==2){
         document.getElementById("screen2").style.display = "block";
-        document.getElementById("psicologia").style.display = "none";
+        document.getElementById("Periodoncia").style.display = "none";
         document.getElementById("screen3").style.display = "none";
         document.getElementById("screen4").style.display = "none";
         document.getElementById("side").style.display = "none";
-        document.getElementById("ozonoterapia").style.display = "none";
-        document.getElementById("examenes").style.display = "none";
+        document.getElementById("implantes").style.display = "none";
+        document.getElementById("estetica").style.display = "none";
         contador=1;
         backarriba();
         ids1();
@@ -252,7 +252,7 @@ function back() {
         e.preventDefault();
       
         //INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
-        let telefono = "593987388646";
+        let telefono = "593987388645";
       
         let cliente = document.querySelector("#cliente").value;
         let edad = document.querySelector("#edad").value;
@@ -276,7 +276,7 @@ function back() {
               *Hora*%0A
               ${hora}%0A
               *Servicio*%0A
-              ${modulos}*%0AInformación%0AEnviada%0Adesde%0Ala%0AApp%0Ade%0ACliconline%0Ahttps://n9.cl/cliconline%0A`;
+              ${modulos}*%0AInformación Enviada desde Tarjeta Digital Diamante Dental Area%0Ahttps://dentalareaecuador.blogspot.com`;
       
         if (cliente === "" || edad === "" || fecha === "" || hora === "") {
           resp.classList.add("fail");
@@ -356,7 +356,7 @@ function save(){
         title: 'Opciones de Pago',
         icon: 'success',
         html:
-       '<a href="https://dentalareaecuador.blogspot.com/p/opciones-de-pago.html" class="botonp" ><span class="fa fa-share-alt"></span >&nbsp;Compartir nro. Cuenta</a>',
+       '<a href="https://api.whatsapp.com//send?text=NeuroZone%20Opciones%20de%20Pago%20https://dentalareaecuador.blogspot.com/p/opciones-de-pago.html" class="botonp" ><span class="fa fa-share-alt"></span >&nbsp;Compartir nro. Cuenta</a>',
         showCloseButton: true,
         showCancelButton: true,
         confirmButtonColor: '#3085d6',

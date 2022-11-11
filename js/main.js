@@ -252,7 +252,7 @@ function back() {
         e.preventDefault();
       
         //INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
-        let telefono = "593987388645";
+        let telefono = "593979261899";
       
         let cliente = document.querySelector("#cliente").value;
         let edad = document.querySelector("#edad").value;

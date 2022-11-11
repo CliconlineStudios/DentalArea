@@ -340,13 +340,13 @@ function save(){
    //ALERTAS>
     
   function abrirpagos(){
-    let urla = `https://dentalarea-ec.blogspot.com/p/opciones-de-pago.html`;
+    let urla = `https://dentalareaecuador.blogspot.com/p/opciones-de-pago.html`;
     window.open(urla); 
    };
 
 
    function verpagos(){
-    let urlsp = `https://dentalarea-ec.blogspot.com/p/opciones-de-pago.html`;
+    let urlsp = `https://dentalareaecuador.blogspot.com/p/opciones-de-pago.html`;
     window.open(urlsp); 
    };
 
@@ -356,7 +356,7 @@ function save(){
         title: 'Opciones de Pago',
         icon: 'success',
         html:
-       '<a href="https://api.whatsapp.com//send?text=NeuroZone%20Opciones%20de%20Pago%20https://dentalarea-ec.blogspot.com/p/opciones-de-pago.html" class="botonp" ><span class="fa fa-share-alt"></span >&nbsp;Compartir nro. Cuenta</a>',
+       '<a href="https://dentalareaecuador.blogspot.com/p/opciones-de-pago.html" class="botonp" ><span class="fa fa-share-alt"></span >&nbsp;Compartir nro. Cuenta</a>',
         showCloseButton: true,
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
@@ -394,13 +394,13 @@ const $content = document.getElementById('textareacopy');
 const shareData2 = {
   title: 'Dental Area',
   text: 'Enviado desde Cliconline App. Tarjeta Digital Dental Area',
-  url: 'https://dentalarea-ec.blogspot.com',
+  url: 'https://dentalareaecuador.blogspot.com',
   }
 
 
  // Share must be triggered by "user activation"
    
- var urltarjeta = 'https://dentalarea-ec.blogspot.com'
+ var urltarjeta = 'https://dentalareaecuador.blogspot.com'
   
  function sharetarjeta(){
  if (navigator.share) {

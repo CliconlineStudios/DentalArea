@@ -373,6 +373,91 @@ lottie-player {
 	color: rgb(28, 136, 224);
 }
 
+
+/* Ortodoncia */
+
+.Ortodoncia {
+	text-align: center;
+	display: none;
+	padding: 0px 3%;
+}
+
+.Ortodoncia img {
+	width: 60%;
+	border-radius: 15px;
+	padding: 8px 0px;
+}
+
+.Ortodoncia .ftneuro {
+	width: 40%;
+	border-radius: 5px;
+	padding: 8px 0px;
+}
+
+.Ortodoncia p {
+	padding: 8px 0px;
+	color: #000000;
+	text-align: left;
+	font-size: 13px;
+
+}
+
+/* Odontopediatria */
+
+.Odontopediatria {
+	text-align: center;
+	display: none;
+	padding: 0px 3%;
+}
+
+.Odontopediatria img {
+	width: 60%;
+	border-radius: 15px;
+	padding: 8px 0px;
+}
+
+.Odontopediatria .ftneuro {
+	width: 40%;
+	border-radius: 5px;
+	padding: 8px 0px;
+}
+
+.Odontopediatria p {
+	padding: 8px 0px;
+	color: #000000;
+	text-align: left;
+	font-size: 13px;
+
+}
+
+/* Endodoncia */
+
+.Endodoncia {
+	text-align: center;
+	display: none;
+	padding: 0px 3%;
+}
+
+.Endodoncia img {
+	width: 60%;
+	border-radius: 15px;
+	padding: 8px 0px;
+}
+
+.Endodoncia .ftneuro {
+	width: 40%;
+	border-radius: 5px;
+	padding: 8px 0px;
+}
+
+.Endodoncia p {
+	padding: 8px 0px;
+	color: #000000;
+	text-align: left;
+	font-size: 13px;
+
+}
+
 /* ----- ----- Periodoncia ----- ----- */
 
 .Periodoncia {

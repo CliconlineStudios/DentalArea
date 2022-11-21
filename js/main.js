@@ -36,6 +36,9 @@ function backweb() {
         document.getElementById("screen3").style.display = "none";
         document.getElementById("Periodoncia").style.display = "none";
         document.getElementById("implantes").style.display = "none";
+        document.getElementById("Endodoncia").style.display = "none";
+        document.getElementById("Odontopediatria").style.display = "none";
+        document.getElementById("Ortodoncia").style.display = "none";
         document.getElementById("estetica").style.display = "none";
         document.getElementById("side").style.display = "none";
         document.getElementById("sharelink").style.display = "none";
@@ -47,8 +50,11 @@ function backweb() {
     else if(contador==2){
         document.getElementById("screen2").style.display = "block";
         document.getElementById("Periodoncia").style.display = "none";
+        document.getElementById("Ortodoncia").style.display = "none";
+        document.getElementById("Odontopediatria").style.display = "none";
         document.getElementById("screen3").style.display = "none";
         document.getElementById("screen4").style.display = "none";
+        document.getElementById("Endodoncia").style.display = "none";
         document.getElementById("side").style.display = "none";
         document.getElementById("implantes").style.display = "none";
         document.getElementById("estetica").style.display = "none";
@@ -68,8 +74,11 @@ function inicio() {
     document.getElementById("back").style.display = "none";
     document.getElementById("screen3").style.display = "none";
     document.getElementById("Periodoncia").style.display = "none";
+    document.getElementById("Ortodoncia").style.display = "none";
     document.getElementById("implantes").style.display = "none";
+    document.getElementById("Endodoncia").style.display = "none";
     document.getElementById("estetica").style.display = "none";
+    document.getElementById("Odontopediatria").style.display = "none";
     document.getElementById("screen4").style.display = "none";
     document.getElementById("sharelink").style.display = "none";
     document.getElementById("side").style.display = "none";
@@ -93,7 +102,10 @@ function servicios() {
     document.getElementById("screen1").style.display = "none";
     document.getElementById("screen2").style.display = "block";
     document.getElementById("Periodoncia").style.display = "none";
+    document.getElementById("Ortodoncia").style.display = "none";
+    document.getElementById("Odontopediatria").style.display = "none";
     document.getElementById("implantes").style.display = "none";
+    document.getElementById("Endodoncia").style.display = "none";
     document.getElementById("estetica").style.display = "none";
     document.getElementById("side").style.display = "none";
     document.getElementById("sharelink").style.display = "none";
@@ -115,6 +127,39 @@ function screen3() {
     
 }
 
+function Ortodoncia() {
+  document.getElementById("Ortodoncia").style.display = "block";
+  document.getElementById("screen2").style.display = "none";
+  document.getElementById("side").style.display = "none";
+  document.getElementById("sharelink").style.display = "none";
+  conta=0;
+  contador=2;
+  ids2();   
+  
+}
+
+function Odontopediatria() {
+  document.getElementById("Odontopediatria").style.display = "block";
+  document.getElementById("screen2").style.display = "none";
+  document.getElementById("side").style.display = "none";
+  document.getElementById("sharelink").style.display = "none";
+  conta=0;
+  contador=2;
+  ids2();   
+  
+}
+
+function Endodoncia() {
+  document.getElementById("Endodoncia").style.display = "block";
+  document.getElementById("screen2").style.display = "none";
+  document.getElementById("side").style.display = "none";
+  document.getElementById("sharelink").style.display = "none";
+  conta=0;
+  contador=2;
+  ids2();   
+  
+}
+
 function Periodoncia() {
     document.getElementById("Periodoncia").style.display = "block";
     document.getElementById("screen2").style.display = "none";
@@ -126,8 +171,10 @@ function Periodoncia() {
     
 }
 
+
+
 function implantes() {
-    document.getElementById("implantes").style.display = "block";
+    document.getEdocument.getElementById("Ortodoncia").style.display = "none";lementById("implantes").style.display = "block";
     document.getElementById("screen2").style.display = "none";
     document.getElementById("side").style.display = "none";
     document.getElementById("sharelink").style.display = "none";
@@ -140,7 +187,10 @@ function implantes() {
 function estetica() {
     document.getElementById("estetica").style.display = "block";
     document.getElementById("implantes").style.display = "none";
+    document.getElementById("Ortodoncia").style.display = "none";
+    document.getElementById("Odontopediatria").style.display = "none";
     document.getElementById("Periodoncia").style.display = "none";
+    document.getElementById("Endodoncia").style.display = "none";
     document.getElementById("screen4").style.display = "none";
     document.getElementById("screen3").style.display = "none";
     document.getElementById("screen2").style.display = "none";
@@ -159,6 +209,9 @@ function screen4() {
     document.getElementById("screen2").style.display = "none";
     document.getElementById("screen3").style.display = "none"; 
     document.getElementById("Periodoncia").style.display = "none"; 
+    document.getElementById("Ortodoncia").style.display = "none";
+    document.getElementById("Odontopediatria").style.display = "none";
+    document.getElementById("Endodoncia").style.display = "none";
     document.getElementById("screen1").style.display = "none";
     document.getElementById("estetica").style.display = "none";
     document.getElementById("side").style.display = "none";
@@ -175,7 +228,10 @@ function sharetj() {
     document.getElementById("screen4").style.display = "none";
     document.getElementById("screen2").style.display = "none";
     document.getElementById("screen3").style.display = "none"; 
+    document.getElementById("Ortodoncia").style.display = "none";
     document.getElementById("Periodoncia").style.display = "none"; 
+    document.getElementById("Odontopediatria").style.display = "none";
+    document.getElementById("Endodoncia").style.display = "none";
     document.getElementById("screen1").style.display = "none";
     document.getElementById("estetica").style.display = "none";
     document.getElementById("side").style.display = "none";
@@ -190,10 +246,13 @@ function sharetj() {
 function back() {
 
     if (contador==1) {
+        document.getElementById("Ortodoncia").style.display = "none";
         document.getElementById("screen1").style.display = "block";
         document.getElementById("screen2").style.display = "none";
         document.getElementById("screen3").style.display = "none";
         document.getElementById("Periodoncia").style.display = "none";
+        document.getElementById("Odontopediatria").style.display = "none";
+        document.getElementById("Endodoncia").style.display = "none";
         document.getElementById("implantes").style.display = "none";
         document.getElementById("estetica").style.display = "none";
         document.getElementById("side").style.display = "none";
@@ -205,6 +264,9 @@ function back() {
     else if(contador==2){
         document.getElementById("screen2").style.display = "block";
         document.getElementById("Periodoncia").style.display = "none";
+        document.getElementById("Ortodoncia").style.display = "none";
+        document.getElementById("Odontopediatria").style.display = "none";
+        document.getElementById("Endodoncia").style.display = "none";
         document.getElementById("screen3").style.display = "none";
         document.getElementById("screen4").style.display = "none";
         document.getElementById("side").style.display = "none";
@@ -252,7 +314,7 @@ function back() {
         e.preventDefault();
       
         //INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
-        let telefono = "593979261899";
+        let telefono = "593987388645";
       
         let cliente = document.querySelector("#cliente").value;
         let edad = document.querySelector("#edad").value;

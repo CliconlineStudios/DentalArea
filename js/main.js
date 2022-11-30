@@ -174,13 +174,21 @@ function Periodoncia() {
 
 
 function implantes() {
-    document.getEdocument.getElementById("Ortodoncia").style.display = "none";lementById("implantes").style.display = "block";
-    document.getElementById("screen2").style.display = "none";
-    document.getElementById("side").style.display = "none";
-    document.getElementById("sharelink").style.display = "none";
-    conta=0;
-    contador=2; 
-    ids2();  
+  document.getElementById("implantes").style.display = "block";
+  document.getElementById("estetica").style.display = "none";
+  document.getElementById("Ortodoncia").style.display = "none";
+  document.getElementById("Odontopediatria").style.display = "none";
+  document.getElementById("Periodoncia").style.display = "none";
+  document.getElementById("Endodoncia").style.display = "none";
+  document.getElementById("screen4").style.display = "none";
+  document.getElementById("screen3").style.display = "none";
+  document.getElementById("screen2").style.display = "none";
+  document.getElementById("screen1").style.display = "none";
+  document.getElementById("side").style.display = "none";
+  document.getElementById("sharelink").style.display = "none";
+  conta=0;
+  contador=2;  
+  ids2(); 
     
 }
 

@@ -428,7 +428,7 @@ function save(){
       imageUrl: 'img/logodentalares.png',
       imageWidth: 100,
         html:
-       '<a href="https://api.whatsapp.com//send?text=NeuroZone%20Opciones%20de%20Pago%20https://dentalareaecuador.blogspot.com/p/opciones-de-pago.html" class="botonp" ><span class="fa fa-share-alt"></span >&nbsp;Compartir nro. Cuenta</a>',
+        '<a href="https://api.whatsapp.com//send?text=*Dental Area Opciones de Pago*%0ABanco Pichicha%0ACta.Ahorro%20Número: 5012016000%0APaga con Transferencia Aquí%0Ahttps://dentalareaecuador.blogspot.com/p/opciones-de-pago.html" class="botonp" ><span class="fa fa-share-alt"></span >&nbsp;Compartir nro. Cuenta</a>',
         showCloseButton: true,
         showCancelButton: true,
         confirmButtonColor: '#3085d6',

@@ -342,6 +342,11 @@ lottie-player {
 	padding: 8px 0px;
 }
 
+@media screen  and  (min-width: 659px){
+	.screen3 iframe{ 
+		height: 450px;
+	}
+}
 .screen3 .ftneuro {
 	width: 40%;
 	border-radius: 5px;

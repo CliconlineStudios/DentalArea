@@ -529,7 +529,7 @@ function UbicacionC() {
     imageUrl: 'img/logodentalares.png',
     imageWidth: 100,
       html:
-     '<a href="https://www.google.com/maps?q=-0.2991079,-78.4597881&z=17&hl=es" class="whatsapp" ><span class="fa fa-map-marker"></span >Ubicación San Rafael</a><br><br><a href="https://goo.gl/maps/V7MnxdNpsGSXA2oj8" class="whatsapp" ><span class="fa fa-map-marker"></span >Ubicación Cayambe</a>',
+     '<a href="https://www.google.com/maps/place/Papeler%C3%ADa+Le%C3%B3n+Tri%C3%A1ngulo/@-0.2992698,-78.4598015,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipPRdCPg02h9Yr6o1oLyNuB-qxEBkmUqhzD8kNha!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPRdCPg02h9Yr6o1oLyNuB-qxEBkmUqhzD8kNha%3Dw397-h298-k-no!7i4000!8i3000!4m7!3m6!1s0x91d5bdc97622b42d:0x451c3154a0c3b3fb!8m2!3d-0.2992698!4d-78.4598015!14m1!1BCgIgAQ" class="whatsapp" ><span class="fa fa-map-marker"></span >Ubicación San Rafael</a><br><br><a href="https://goo.gl/maps/V7MnxdNpsGSXA2oj8" class="whatsapp" ><span class="fa fa-map-marker"></span >Ubicación Cayambe</a>',
      showConfirmButton: false,
      showCloseButton: true,
      showCancelButton: true,

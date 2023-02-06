@@ -529,7 +529,7 @@ function UbicacionC() {
     imageUrl: 'img/logodentalares.png',
     imageWidth: 100,
       html:
-     '<a href="https://www.google.com.ec/maps/place/0%C2%B017"57.2%22S+78%C2%B027"35.4%22W/@-0.299214,-78.4603842,19z/data=!3m1!4b1!4m19!1m12!4m11!1m3!2m2!1d-78.4598412!2d-0.2992054!1m6!1m2!1s0x91d5bdc97622b42d:0x451c3154a0c3b3fb!2sPapeler%C3%ADa+Le%C3%B3n+Tri%C3%A1ngulo,+General+Rumi%C3%B1ahui,+y,+Quito+171102!2m2!1d-78.4598015!2d-0.2992698!3m5!1s0x0:0x9f756e2855d2f8f!7e2!8m2!3d-0.2992137!4d-78.4598367?hl=es" class="whatsapp" ><span class="fa fa-map-marker"></span >Ubicación San Rafael</a><br><br><a href="https://goo.gl/maps/V7MnxdNpsGSXA2oj8" class="whatsapp" ><span class="fa fa-map-marker"></span >Ubicación Cayambe</a>',
+     '<a href="https://www.google.com/maps?q=-0.2991079,-78.4597881&z=17&hl=es" class="whatsapp" ><span class="fa fa-map-marker"></span >Ubicación San Rafael</a><br><br><a href="https://goo.gl/maps/V7MnxdNpsGSXA2oj8" class="whatsapp" ><span class="fa fa-map-marker"></span >Ubicación Cayambe</a>',
      showConfirmButton: false,
      showCloseButton: true,
      showCancelButton: true,
